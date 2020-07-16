@@ -19,7 +19,7 @@ docker build --tag image-manager:1.0 .
 ```
 docker run --publish 8000:3000 --detach --name image-manager image-manager:1.0
 ```
-2. Visit your application in a browser at http://localhost:3000/.
+2. Visit your application in a browser at http://localhost:8000/.
 3. Stop the running container
 ```
 docker stop image-manager
